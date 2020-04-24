@@ -1,5 +1,9 @@
 # Inventory-Management-Application - Java Desktop Application
 
+# features
+- generate csv of sales log, items log etc
+- create new manifests, track capital, inventory counts
+
 <b>Gui on launch:</b>
 ![alt text](https://i.imgur.com/vw0uXQi.png)
 
