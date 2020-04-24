@@ -1,0 +1,62 @@
+package tests;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.jar.Manifest;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class manifestGeneratorTests {
+	/*
+	 * Test 0: Declare a manifestGenerator object
+	 */
+	manifestGenerator generator;
+	
+	/*
+	 * Test 1: Create a manifestGenerator object
+	 */
+	@Before @Test public void createGenerator() {
+		generator = new manifestGenerator();
+	}
+	
+
+	/*
+	 * Test 2: Given dummy item list, make a manifest that contains an ordinary truck
+	 */
+	@Test public void addTrucks() {
+		Stock storeStock=new Stock();
+		Item storeItem = new Item("rice",2,4,100,500,null,0);
+		storeStock.add(storeItem);
+		generator.generate(storeStock);
+		
+		Manifest manifest = generator.get();
+		ArrayList<Truck> trucks = manifest.get();
+		ordinaryTruck truck = new ordinaryTruck();
+		assertEquals("Could not make a manifest with an ordinary truck",
+				truck.getClass(),trucks.get(0).getClass());
+	}
+	
+	/*
+	 * Test 3: Given a dummy item list with a cold item, make a manifest with a cold truck
+	 */
+	@Test public void addColdTruck() {
+		Stock storeStock=new Stock();
+		Item storeItem = new Item("ice",2,4,100,500,-1,0);
+		storeStock.add(storeItem);
+		generator.generate(storeStock);
+		
+		Manifest manifest = generator.get();
+		ArrayList<Truck> trucks = manifest.get();
+		refrigeratedTruck truck = new refrigeratedTruck();
+		assertEquals("Could not make a manifest with a cold truck",
+				truck.getClass(),trucks.get(0).getClass());
+	}
+
+	/*
+	 * Test 4, correctly get the right amount of items onto a truck
+	 */
+	@Test public void addItemsToTruck() {
+		
+	}
+}

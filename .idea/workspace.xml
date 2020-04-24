@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edc3eb9b-3379-4dc4-93fb-a760d3dbfd0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Project Documentation/Pinelands Music School tests - complete.side" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Documentation/Release_and_Sprint_Plans_V2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Documentation/Sprint Burndown+Velocity Chart.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Documentation/Test-Cases-for-Music-School-Ben.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Documentation/Test-Cases-for-Music-School-Seb.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Documentation/User_Stories.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Ben/Bens_Artefacts.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Locke/Personal Portfolio Locke Nicholls.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 01/Script Sample.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 01/TestSuite.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 01/TimetableAfterTesting.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 01/Youtube.video.link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 01/samplescript.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 02/Dashboard.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 02/IssuesReportedbyCurrentUser.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 02/TimeTracking Individual.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 02/Timetracking Overview.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 03/MeetingNotesLarge.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 03/MeetingNotesSample1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 03/MeetingNotesSample2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 04/AcceptanceCriteriaMet.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 05/A5-1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/Artefact 05/A5-2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Seb/n8020892 Personal-Portfolio.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/base.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/forms.py.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/login.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/logout.hml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/models.py.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/reg_form_student.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/reg_form_teachers.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/code files/views.py.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/student login form login.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/student registered in db.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/student rego form.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/success page teacher.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/teacher in db.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/teacher login form.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 1 - evidence/teacher rego form.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 2 - evidence/student  account detail first.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 2 - evidence/success updated of name of student profile.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 2 - evidence/update student data.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 3 - evidence/Data FLOW DIAGRAMS.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 4 - evidence/Investigate core backend setup, configuration and recommendations.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 5 - evidence/class updated.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 5 - evidence/code/admin.py.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 5 - evidence/code/model.py.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 5 - evidence/starting class 1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Artefact 5 - evidence/updating class.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sprint 1 items/Shahyan/Personal Folio doc - n9587268.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test data sql file/Test Data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test data sql file/_README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/PowerShellScripts/1.SiteSetup.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/PowerShellScripts/2.Insert Test Data.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/PowerShellScripts/3.RunServer.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/static/accounts/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/static/accounts/biglogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/static/accounts/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/static/accounts/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/static/accounts/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/add-user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/addUser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/createteacher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/enrol.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/myClassesStudent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/myClassesTeacher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/profile_edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/reg_form_students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/reg_form_teachers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/accounts/timetable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/edit-profile-new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/accounts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/how to" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/how to.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/tutorial/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/tutorial/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/tutorial/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/tutorial/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Website/tutorial/wsgi.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aypF1Tq0eI8HWrGwJGdSmtOLFK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edc3eb9b-3379-4dc4-93fb-a760d3dbfd0f" name="Default Changelist" comment="" />
+      <created>1587717580361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587717580361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="199" y="29" width="1024" height="739" key="SettingsEditor" timestamp="1587717620833">
+      <screen x="67" y="29" width="1299" height="739" />
+    </state>
+    <state x="199" y="29" width="1024" height="739" key="SettingsEditor/67.29.1299.739@67.29.1299.739" timestamp="1587717620833" />
+  </component>
+</project>

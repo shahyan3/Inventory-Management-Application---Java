@@ -1,0 +1,65 @@
+package tests;
+import org.junit.Test;
+import org.junit.Before;
+import static org.junit.Assert.*;
+
+/**
+ * 
+ * @author Locke
+ * 
+ * 
+ */
+public class refrigeratedTests {
+
+
+	
+	/*Test 0: Declare Stock Object
+	 */
+	
+	refrigeratedTruck truck;
+	
+	/*
+	 * Test 1: Make a truck object
+	 */
+	@Before @Test public void setUpTruck() {
+		truck = new refrigeratedTruck();
+	}
+	
+	/*
+	 * Test 1: Get the capacity of the truck
+	 */
+	
+	@Test public void getInitialCapacity() {
+		assertEquals("Could not get inital truck capacity correctly",
+				800,truck.getCapacity);
+	}
+	
+	/*
+	 * Test 2: Items are correctly added to internal stock object
+	 */
+	
+	@Test public void addItemsToStock() {
+		
+		Stock testStock = new Stock();
+		Item item = new Item("milk",2,4,100,125,4,125);
+		testStock.add(item);
+		truck.add(item);
+		Stock truckStock = truck.getStock();
+		
+		assertEquals("Could not correctly add an item to the truck",
+				testStock.getItems(),truckStock.getItems());
+				
+	}
+	
+	/*
+	 * Test 3: Reduces capacity when items are added
+	 */
+	@Test public void reduceTruckCapacity() {
+		Item item = new Item("milk",2,4,100,125,4,125);
+		truck.add(item);
+		
+		assertEquals("Could not correctly reduce capacity",
+			675,truck.getCapacity());	
+	}
+	
+}

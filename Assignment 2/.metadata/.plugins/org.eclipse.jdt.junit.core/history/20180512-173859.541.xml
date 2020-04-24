@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="sandbox" project="Assignment 2" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.sandbox" time="0.0" uniqueid="[engine:junit-vintage]/[runner:tests.sandbox]">
+    <testcase name="test" classname="tests.sandbox" time="0.0" displayname="test" uniqueid="[engine:junit-vintage]/[runner:tests.sandbox]/[test:test(tests.sandbox)]"/>
+  </testsuite>
+</testrun>

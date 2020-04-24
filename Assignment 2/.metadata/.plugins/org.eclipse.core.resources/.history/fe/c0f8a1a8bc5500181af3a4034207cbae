@@ -1,0 +1,50 @@
+package tests;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * 
+ * @author Locke
+ * @version 1
+ */
+public class manifestTests {
+	/**
+	 * Test 0: Declare a manifest object
+	 */
+	
+	Manifest manifest;
+	
+	/**
+	 * Test 1: Construct a manifest object
+	 */
+	
+	@Before @Test public void makeAManifest() {
+		manifest = new Manifest();
+	}
+	
+	/**
+	 * Test 2: Add trucks to manifest, ensure they are stored in a useful format
+	 */
+	
+	@Test public void addTrucksToManifest(){
+		//create some trucks
+		ordinaryTruck truck = new ordinaryTruck();
+		refrigeratedTruck truck2=new refrigeratedTruck();
+		//store them in an array list
+		ArrayList<Truck> truckList =new ArrayList();
+		truckList.add(truck);
+		truckList.add(truck2);
+		manifest.add(truck);
+		manifest.add(truck2);
+		
+		assertEquals("Could not add trucks to manifest",
+				truckList,manifest.get());
+		
+	}
+		
+	
+}

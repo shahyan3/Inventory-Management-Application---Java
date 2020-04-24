@@ -1,0 +1,24 @@
+package tests;
+import org.junit.Test;
+import org.junit.Before;
+import static org.junit.Assert.*;
+
+
+public class refrigeratedTests {
+
+	/*
+	 * The following are the tests for the refrigeratedTruck class, that inherits from the truck class
+	 * 
+	 */
+	
+	/*Test 0: Declare Stock Object
+	 */
+	
+	refrigeratedTruck truck;
+	
+	/*
+	 * Test 1: Make a truck object
+	 */
+	
+	truck = new refrigeratedTruck();
+}

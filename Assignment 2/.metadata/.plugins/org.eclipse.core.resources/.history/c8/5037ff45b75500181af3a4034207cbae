@@ -1,0 +1,11 @@
+package tests;
+import org.junit.Test;
+import org.junit.Before;
+import static org.junit.Assert.*;
+
+public class sandbox {
+@Test public void test() {
+	ArrayList<int> 1 = new ArrayList();
+	ArrayList<int> 2 = new ArrayList();
+}
+}

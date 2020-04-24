@@ -1,0 +1,16 @@
+package tests;
+import org.junit.Test;
+import org.junit.Before;
+import static org.junit.Assert.*;
+
+public class sandbox {
+@Test public void test() {
+	ArrayList<int> a1 = new ArrayList();
+	ArrayList<int> a2 = new ArrayList();
+	a1.add(1);
+	a1.add(2);
+	a2.add(2);
+	a2.add(1);
+	assertArrayEquals(a1,a2);
+}
+}

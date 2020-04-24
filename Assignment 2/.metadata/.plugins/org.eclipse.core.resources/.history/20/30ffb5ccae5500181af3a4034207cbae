@@ -1,0 +1,101 @@
+package tests;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.jar.Manifest;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class manifestGeneratorTests {
+	/*
+	 * Test 0: Declare a manifestGenerator object
+	 */
+	manifestGenerator generator;
+	
+	/*
+	 * Test 1: Create a manifestGenerator object
+	 */
+	@Before @Test public void createGenerator() {
+		generator = new manifestGenerator();
+	}
+	
+	/*
+	 * Test 2: Given a dummy item list from a store, interpret and
+	 *		   make a manifest to restock the store
+	 */
+	@Test public void createBasicManifest() {
+		Stock storeStock=new Stock();
+		Item storeItem = new Item("rice",2,4,100,500,null,0);
+		storeStock.add(storeItem);
+		generator.generate(storeStock);
+		
+		Manifest generatedMani = generate.get();
+		Stock maniStock = generatedMani.get();
+		Item maniItem = maniStock.get().get(0);
+		
+		assertEquals ("Didn't correctly generate a manifest with the right number of items",
+				500,maniItem.getQuantity());
+	
+	}
+	
+	//takes two manifests, checks they have the same trucks with the same contents.
+	public boolean manifestChecker (Manifest m1,Manifest m2) {
+		ArrayList<Truck> trucks1;
+		ArrayList<Truck> trucks2;
+		trucks1=m1.get();
+		trucks2=m2.get();
+		Stock stock1;
+		Stock stock2;
+		ArrayList<Item> items1;
+		ArrayList<Item> items2;
+		
+		//Checks both manifests have the same number of trucks
+		if (trucks1.size()==trucks2.size()) {
+			//Iterate over every truck
+			for (int index=0;index<trucks1.size();index++) {
+				//checks trucks in both manifests are of the same type 
+				if (trucks1.get(index).getClass()==trucks2.get(index).getClass()) {
+					//check the trucks have the same number of items on board
+					if (trucks1.get(index).getCapacity()==trucks2.get(index).getCapacity()) {
+						stock1=trucks1.get(index).get();
+						stock2=trucks2.get(index).get();
+						items1=stock1.get();
+						items2=stock2.get();
+						//iterate all the items	
+						for (int index2;index2<items1.size();index++) {
+							//check items have the same name
+							if(items1.get(index2).getName()==items2.get(index2).getName()) {
+								//check they have the same quantity
+								if (items1.get(index2).getQuantity()==items2.get(index2).getQuantity()) {
+									//Further if statements to make sure items are the same can go here
+									//Name and Quantity are all that are needed for now. 
+								}
+								else {
+									return false;
+								}
+							}
+							else {
+								return false;
+							}
+						}
+					}
+					else {
+						return false;
+					}
+				 }
+				else {
+					return false;
+				}
+			}
+		}
+		else {
+			return false;
+		}
+		return true;
+			
+		
+	}
+	
+	
+}

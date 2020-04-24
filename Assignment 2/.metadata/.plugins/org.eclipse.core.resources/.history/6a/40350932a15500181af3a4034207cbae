@@ -1,0 +1,21 @@
+package tests;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class manifestGeneratorTests {
+	/*
+	 * Test 0: Declare a manifestGenerator object
+	 */
+	manifestGenerator generator;
+	
+	/*
+	 * Test 1: Create a manifestGenerator object
+	 */
+	@Before @Test public void createGenerator() {
+		generator = new manifestGenerator();
+	}
+}
